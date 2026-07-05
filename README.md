@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Trader_AngleOne
 
 A lightweight, efficient Python wrapper for fetching historical equity market data via Angel One SmartAPI.
@@ -84,3 +85,6 @@ Pass these exact string values into the second argument of `get_history_data()`:
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+=======
+# Trader_AngleOne
+>>>>>>> d983ccc6afe5dd7c494481585c5374dd60606e58
