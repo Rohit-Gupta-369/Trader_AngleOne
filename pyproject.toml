@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Trader_AngleOne"
+version = "1.4"
+authors = [
+  { name="ROHIT GUPTA", email="everything108rp@gmail.com" },
+]
+description = "A lightweight, efficient Python wrapper for fetching historical equity market data via Angel One SmartAPI."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = [
+    "smartapi-python",  # This ensures Angel One's official underlying package installs automatically
+    "pandas",
+
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Rohit-Gupta-369/Trader_AngleOne"
+"Bug Tracker" = "https://github.com/Rohit-Gupta-369/Trader_AngleOne/issues"
