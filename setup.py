@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='TraderAngleOne',
-    version="1.03",
+    version="1.3",
     packages= find_packages(),
     install_requires=[
         # pandas>=2.0.0,

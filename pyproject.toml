@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Trader_AngleOne"
-version = "1.4"
+version = "1.5"
 authors = [
   { name="ROHIT GUPTA", email="everything108rp@gmail.com" },
 ]
@@ -21,7 +21,11 @@ classifiers = [
 dependencies = [
     "smartapi-python",  # This ensures Angel One's official underlying package installs automatically
     "pandas",
-
+    "pyotp",
+    "logzero",
+    "websocket",
+    "websocket-client",
+    "numpy",
 ]
 
 [project.urls]
